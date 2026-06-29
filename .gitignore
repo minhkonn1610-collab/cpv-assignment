@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated artifacts
+data/model.pkl
+attendance.csv
+
+# Dataset and source media — store externally, not in git
+dataset/
+videos/
+students/
+
+# Archives
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

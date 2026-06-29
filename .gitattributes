@@ -1,0 +1,20 @@
+# Normalise all text files to LF on commit
+* text=auto
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+.gitignore    text eol=lf
+.gitattributes text eol=lf
+
+# Binary files — never touch line endings
+*.pkl  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.bmp  binary
+*.MOV  binary
+*.mp4  binary
+*.avi  binary
+*.zip  binary
